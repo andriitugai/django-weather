@@ -3,5 +3,11 @@
 {%  block content %}
 
 <h1>Hello World!</h1>
+</br>
+{% for line in api  %}
+    <div>
+    {{ line }}
+    </div>
+{% endfor %}
 
 {% endblock %}
