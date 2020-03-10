@@ -4,10 +4,12 @@
 
 <h1>Hello World!</h1>
 </br>
-{% for line in api  %}
-    <div>
+{% comment %} {% for line in api  %}
+    <div></br>
     {{ line }}
     </div>
-{% endfor %}
+{% endfor %} {% endcomment %}
+
+{{ api.0 }}
 
 {% endblock %}
